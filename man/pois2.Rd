@@ -33,3 +33,8 @@ independent Poisson distributed random variables with parameters lambda1, lambda
 The parameter lambda3 acts as a dependence parameter, and only positive correlation
 between x1 and x2 is possible.
 }
+\section{References}{
+
+Johnson, Kotz & Balakrishnan (1997) Discrete multivariate distributions.
+}
+

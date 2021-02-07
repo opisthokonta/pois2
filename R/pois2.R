@@ -18,8 +18,7 @@
 #' @param lambda3 vector of non-negative parameters of the bivariate Poisson distribution.
 #'
 #'
-#' @section References
-#'
+#' @section References:
 #' Johnson, Kotz & Balakrishnan (1997) Discrete multivariate distributions.
 #'
 #' @name pois2
@@ -30,9 +29,9 @@ NULL
 #' @export
 rpois2 <- function(n, lambda1, lambda2, lambda3){
 
-  x3 <- rpois(n, lambda = lambda3)
-  x1 <- rpois(n, lambda = lambda1) + x3
-  x2 <- rpois(n, lambda = lambda2) + x3
+  y3 <- stats::rpois(n, lambda = lambda3)
+  x1 <- stats::rpois(n, lambda = lambda1) + y3
+  x2 <- stats::rpois(n, lambda = lambda2) + y3
 
   xmat <- cbind(x1,x2)
   return(xmat)

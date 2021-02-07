@@ -21,6 +21,8 @@ NumericVector dpois2(IntegerVector& x1,
     return empty_vec;
   }
 
+  // Length of the returned vector should be the same
+  // as the longest input vector.
   const int N = std::max(x1.length(),
                          std::max(x2.length(),
                                   std::max(lambda1.length(),

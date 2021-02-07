@@ -4,6 +4,6 @@
 #' @rdname pois2
 #' @export
 dpois2 <- function(x1, x2, lambda1, lambda2, lambda3) {
-    .Call('_pois2_dpois2', PACKAGE = 'pois2', x1, x2, lambda1, lambda2, lambda3)
+    .Call(`_pois2_dpois2`, x1, x2, lambda1, lambda2, lambda3)
 }
 
