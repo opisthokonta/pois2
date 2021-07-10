@@ -13,7 +13,7 @@
 #' @param x1 non-negative integer.
 #' @param x2 non-negative integer.
 #' @param n number of random values to return.
-#' @param lambda1 vector of non-negative parameters of theu bivariate Poisson distribution.
+#' @param lambda1 vector of non-negative parameters of the bivariate Poisson distribution.
 #' @param lambda2 vector of non-negative parameters of the bivariate Poisson distribution.
 #' @param lambda3 vector of non-negative parameters of the bivariate Poisson distribution.
 #'

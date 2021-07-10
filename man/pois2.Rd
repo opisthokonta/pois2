@@ -15,7 +15,7 @@ rpois2(n, lambda1, lambda2, lambda3)
 
 \item{x2}{non-negative integer.}
 
-\item{lambda1}{vector of non-negative parameters of theu bivariate Poisson distribution.}
+\item{lambda1}{vector of non-negative parameters of the bivariate Poisson distribution.}
 
 \item{lambda2}{vector of non-negative parameters of the bivariate Poisson distribution.}
 
