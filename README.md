@@ -1,4 +1,4 @@
-The pois2 package contains functions for the bivariate Poisson distribution. This is currently very much a work in progress, I would consider it being at the alpha development stage. It might not even work properly. Currently, only two functions, dpois2 and rpois2 are available.
+The pois2 package contains functions for the bivariate Poisson distribution. This is currently very much a work in progress. It might not even work properly. Currently, three functions are available: dpois2, rpois2, and lambda3.ml.
 
 Installation
 ============
